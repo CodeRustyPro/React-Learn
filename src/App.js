@@ -1,10 +1,9 @@
 import './App.css';
-import Header from './components/Header'
+import Landing from './components/Landing.jsx'
 function App() {
   return (
     <div>
-      <h1>I am Dev</h1>
-      <Header/>
+      <Landing/>
     </div>
   );
 }

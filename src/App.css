@@ -1,13 +1,43 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap');
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+
+:root{
+  --white: #fff;
+  --black:#000;
+}
 *{
   margin: 0;
   padding: 0;
   font-family: Poppins;
   box-sizing: border-box;
-  text-align: center;
-  padding: 20px;
-  border-radius: 20px;
-  outline: none;
 }
-h1{
-  font-weight: 400;
+body{
+  background-color: #0C0C0C;
+  background-image: url('./images/image\ 1.png');
+  background-size: cover;
+  background-position: center center;
+}
+.heading-hero{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.heading-hero h1{
+  font-size: 8vh;
+  line-height: 10vh;
+  /* letter-spacing: 1px; */
+  color:var(--white);
+  font-family: 'Elsie Swash Caps', cursive;
+  font-weight: 100;
+}
+.heading-hero h1 span{
+  color: var(--black);
+  padding: 0px 5px 0px 5px;
+  border-radius: 2px;
+  background: rgb(255, 255, 255);
+  font-family: 'Monument Extended', sans-serif;
+  /* font-weight: 100; */
 }
